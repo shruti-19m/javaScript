@@ -19,27 +19,30 @@ This repo is part of my self-learning journey and preparation for **internships,
 
 ## 📁 Repository Structure
 
+```text
 📦 JavaScript-Mastery/
 ├── 01_Basics/
-│ ├── variables.js
-│ ├── dataTypes.js
-│ └── operators.js
+│   ├── variables.js
+│   ├── dataTypes.js
+│   └── operators.js
 ├── 02_ControlFlow/
-│ ├── ifElse.js
-│ ├── loops.js
-│ └── switch.js
+│   ├── ifElse.js
+│   ├── loops.js
+│   └── switch.js
 ├── 03_Functions/
-│ ├── functionDeclaration.js
-│ └── arrowFunctions.js
+│   ├── functionDeclaration.js
+│   └── arrowFunctions.js
 ├── 04_Arrays_Objects/
-│ ├── arrays.js
-│ ├── objects.js
-│ └── arrayMethods.js
+│   ├── arrays.js
+│   ├── objects.js
+│   └── arrayMethods.js
 ├── 05_Advanced/
-│ ├── closures.js
-│ ├── promises.js
-│ └── asyncAwait.js
+│   ├── closures.js
+│   ├── promises.js
+│   └── asyncAwait.js
 └── README.md
+```
+
 
 ---
 
