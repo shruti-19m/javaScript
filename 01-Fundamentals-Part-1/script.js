@@ -34,7 +34,7 @@ console.log(typeof year);
 */
 
 
-var job = 'editor';
+/*var job = 'editor';
 job = 'teacher';
 
 lastName = 'Mandal';
@@ -45,7 +45,7 @@ console.log(typeof isIsland);
 let population = 4700;
 console.log(population);
 console.log('language');
-
+*/
 
 
 
