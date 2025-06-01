@@ -80,7 +80,7 @@ const markHigherBMI =BMIMark >BMIJohn;
 console.log(BMIMark,BMIJohn, markHigherBMI);
 */
 
-
+/*
 const firstName = 'Jones';
 const job = 'teacher';
 const birthYear = 2000;
@@ -97,3 +97,23 @@ console.log('Just a regular string...');
 console.log('string with \n\
     multiple \n\
     lines');
+*/
+
+
+const age = 19;
+if(age >=18)
+{
+     console.log('sarah can start driving licence');
+} else{
+    const yearLeft = 18 - age;
+    console.log('sarah is too young,Wait another ${yearsLeft} years:)');
+}
+
+const birthYear = 1998;
+let century;
+if(birthYear<=2000){
+     century=20
+} else {
+    century =21;
+}
+console.log(century);
