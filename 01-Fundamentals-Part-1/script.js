@@ -22,7 +22,6 @@ console.log(population);let country ="India";*/
 
 
 /*console.log(typeof 'jones');
-
 javascriptIsFun = 'YES!';
 console.log(typeof javascriptIsFun);
 
@@ -31,5 +30,22 @@ console.log(year);
 console.log(typeof year);
 
 year = 1991;
-console.log(typeof year);*/
+console.log(typeof year);
+*/
+
+
+var job = 'editor';
+job = 'teacher';
+
+lastName = 'Mandal';
+console.log(lastName);
+ 
+let isIsland = true;
+console.log(typeof isIsland);
+let population = 4700;
+console.log(population);
+console.log('language');
+
+
+
 
