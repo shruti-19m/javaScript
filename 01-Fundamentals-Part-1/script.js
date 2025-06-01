@@ -46,6 +46,21 @@ let population = 4700;
 console.log(population);
 console.log('language');
 */
+let isIsland = true;
+console.log(typeof isIsland);
+let language ;
+console.log(typeof language);
 
+const now = 2037;
+const ageJones = now-1919;
+const ageSarah = now-2020;
+console.log(now-1919>now-2020);
 
+let x,y;
+x=y=25-10-5;
+console.log(x,y);
+
+const averageAge = (ageJones+ ageSarah) / 2
+console.log(ageJones, ageSarah 
+,averageAge);
 
