@@ -11,4 +11,10 @@ let javascriptIsFun = true;
 console.log(javascriptIsFun);
 console.log(typeof true);
 console.log(typeof true);*/
+let Country = "India";
+console.log(country);
+let continent ="Asia";
+console.log(continent);
+let population = 4700;
+console.log(population);let country ="India";
 
