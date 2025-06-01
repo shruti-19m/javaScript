@@ -164,7 +164,7 @@ const money = 500;
   console.log("you should get a job");
  }  */
 
-
+/*
  const favourite = prompt("what is your favourite number?");
  console.log(favourite);
  console.log (typeof favourite);
@@ -175,6 +175,9 @@ const hasGoodVision = true;
  console.log(hasDriversLincense && hasGoodVision);
  console.log(hasDriversLincense || hasGoodVision);
  console.log(!hasDriversLincense);
+ */
+
+ 
 
  
 
