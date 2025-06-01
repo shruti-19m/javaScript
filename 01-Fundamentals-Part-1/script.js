@@ -1,9 +1,14 @@
-let firstName = "jones";
+/*let firstName = "jones";
 console.log(firstName);
 
 let jones_matilda="JM";
-let myfirstjob = "coder";
-let mycurrentjob ="Teacher";
+let myFirstjob = "coder";
+let myCurrentjob ="Teacher";
 console.log(myFirstjob);
 let $function = 27;
 let PI =3.1415;
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+console.log(typeof true);
+console.log(typeof true);*/
+
