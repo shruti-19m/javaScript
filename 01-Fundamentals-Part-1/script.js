@@ -119,7 +119,7 @@ if(birthYear<=2000){
 console.log(century);
 */
 
-
+/*
 const massMark = 95;
 const massJohn = 85;
 const heightMark = 1.88;
@@ -133,4 +133,6 @@ console.log(BMIMark, BMIJohn);
     console.log("Mark's BMI is higher than John's")
   } else {
     console.log("John's BMI is higher than Marks's")
-  }
+  }*/
+
+    
