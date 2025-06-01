@@ -99,7 +99,7 @@ console.log('string with \n\
     lines');
 */
 
-
+/*
 const age = 19;
 if(age >=18)
 {
@@ -117,3 +117,6 @@ if(birthYear<=2000){
     century =21;
 }
 console.log(century);
+*/
+
+
