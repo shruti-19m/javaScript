@@ -67,7 +67,7 @@ console.log(ageJones, ageSarah
 ,averageAge);
 */
 
-
+/*
 const weightMark = 78;
 const weightJohn = 92;
 const heightMark = 1.88;
@@ -78,3 +78,7 @@ const BMIJohn = massJohn/(heightJohn * heightJohn);
 const markHigherBMI =BMIMark >BMIJohn;
 
 console.log(BMIMark,BMIJohn, markHigherBMI);
+*/
+
+
+
