@@ -150,7 +150,7 @@ n = n-1;
 console.log(n);
 */
 
-
+/*
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean('shruti'));
@@ -162,6 +162,21 @@ const money = 500;
   console.log("Don't spend money");
  }else {
   console.log("you should get a job");
- }
+ }  */
+
+
+ const favourite = prompt("what is your favourite number?");
+ console.log(favourite);
+ console.log (typeof favourite);
+
+
+const hasDriversLincense = true;
+const hasGoodVision = true;
+ console.log(hasDriversLincense && hasGoodVision);
+ console.log(hasDriversLincense || hasGoodVision);
+ console.log(!hasDriversLincense);
 
  
+
+
+
