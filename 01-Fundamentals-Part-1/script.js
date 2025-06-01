@@ -177,9 +177,65 @@ const hasGoodVision = true;
  console.log(!hasDriversLincense);
  */
 
- 
+ /*
+const day = 'monday';
+switch (day){
+  case 'monday':
+   console.log('plan course structure');
+   console.log('Go to coding meetup');
+   break;
+  case'tuesday':
+   console.log('prepare theory video');
+  break;
+  case'wednesday':
+  case 'thursday':
+   console.log("write code example");
+   break;
+  case'friday':
+   console.log("record video");
+   break;
+  case'saturday':
+  case'sunday':
+   console.log("enjoy the weekend");
+   break;
+   default:
+    console.log('not valid day');
+}
+
+
+   if(day==='monday');
+   {
+  console.log('plan course structure');
+  console.log('go to coding meetup');
+   } 
+  else if(day === 'tuesday')
+     {
+       console.log('prepare theory videos');
+  }else if(day === 'wednesday' || day === 'thursday') 
+  {
+   console.log('write code examples');
+  } else if(day === 'friday')
+   {
+     console.log('record videos');
+   } else if(day === 'saturday' || day === 'sunday') {
+  console.log('enjoy the weekend ');
+} else {
+  console.log('not  valid day!');
+}*/
+
+3*4
+1991
+true && false && !false
+
+if(23>10)
+{
+  const str='23 is bigger';
+}
+
+ const me ='Jones';
+ console.log('I m ${2025-1992}years old ${me}')
+
 
  
-
 
 
