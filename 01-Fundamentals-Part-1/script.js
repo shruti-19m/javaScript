@@ -46,6 +46,8 @@ let population = 4700;
 console.log(population);
 console.log('language');
 */
+
+/*
 let isIsland = true;
 console.log(typeof isIsland);
 let language ;
@@ -63,4 +65,6 @@ console.log(x,y);
 const averageAge = (ageJones+ ageSarah) / 2
 console.log(ageJones, ageSarah 
 ,averageAge);
+*/
+
 
