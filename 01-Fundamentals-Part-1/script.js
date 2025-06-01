@@ -81,4 +81,19 @@ console.log(BMIMark,BMIJohn, markHigherBMI);
 */
 
 
+const firstName = 'Jones';
+const job = 'teacher';
+const birthYear = 2000;
+const Year = 2025;
 
+const Jones= "I'm" + firstName +',a '+ (year-birthYear) + 'yearold' + job  +'!';
+console.log(Jones);
+
+
+const jonesNew = 'I m ${firstName} ,a ${year-birthYear} year old ${job}!';
+console.log(jonesNew);
+
+console.log('Just a regular string...');
+console.log('string with \n\
+    multiple \n\
+    lines');
