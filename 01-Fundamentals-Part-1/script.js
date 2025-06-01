@@ -21,7 +21,7 @@ let population = 4700;
 console.log(population);let country ="India";*/
 
 
-console.log(typeof 'jones');
+/*console.log(typeof 'jones');
 
 javascriptIsFun = 'YES!';
 console.log(typeof javascriptIsFun);
@@ -31,4 +31,5 @@ console.log(year);
 console.log(typeof year);
 
 year = 1991;
-console.log(typeof year);
+console.log(typeof year);*/
+
