@@ -174,6 +174,7 @@ const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length -
 console.log(ages);
 */
 
+/*
 const friends = ['Shruti','Sourav','Anuska',];
 //Add element
 const newlength = friends.push('Jay');
@@ -203,4 +204,7 @@ console.log(friends.includes(23));
 if(friends.includes('Shruti')){
   console.log('You have a friend called Shruti');
 }
+  */
+
+
 
