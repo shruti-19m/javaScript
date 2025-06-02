@@ -243,8 +243,3 @@ console.log('Sarah is able to drive!')
 } else {
   console.log('someone else should drive...');
 }
-
-
-
-
-
