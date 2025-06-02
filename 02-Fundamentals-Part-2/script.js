@@ -262,7 +262,7 @@ console.log(jones);
 
 console.log(`${jones.firstName} has ${jones.friends.length} friends, and his best friend is called ${jones.friends[0]}`);
 */
-
+/*
 const shruti = {
   firstName: 'Shruti',
   lastName: 'Anuska',
@@ -278,8 +278,8 @@ const shruti = {
   const calcAge = function(birthYeah){
    return 2027 - birthYeah;
   }
-
-
+*/
+/*
 // CODING CHALLENGE
 const mark = {
   fullName: 'Mark Miller',
@@ -312,7 +312,8 @@ if (mark.bmi > john.bmi) {
 } else if (john.bmi > mark.bmi) {
   console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`)
 }
-
+*/
+/*
 //ITERATION_THE FOR LOOP
  console.log('Lifting weights repetition 1');
  console.log('Lifting weights repetition 2');
@@ -330,8 +331,9 @@ for(let rep = 1; rep <=20; rep++) {
     console.log(`Lifting wights repetition ${rep}`);
 }
 
+*/
 
-
+/*
 const jones = [
     'jones',
     'Schmedtmann',
@@ -365,3 +367,6 @@ for (let i = 0; i < years.length; i++) {
   ages.push(2025 - years[i]);
 }
 console.log(ages);
+
+*/
+
