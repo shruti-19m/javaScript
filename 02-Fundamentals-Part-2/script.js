@@ -31,7 +31,7 @@ const appleJuice = fruitprocessor(5,0);
  console.log(appleorangeJuice); 
  */
  
-
+/*
  //function declaration
  function calcAge1(birthYeah)
  {
@@ -47,3 +47,7 @@ const appleJuice = fruitprocessor(5,0);
  const age2 = calcAge2(1991);
 
  console.log(age1 , age2);
+ */
+
+
+ 
