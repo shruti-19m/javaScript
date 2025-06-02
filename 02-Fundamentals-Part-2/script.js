@@ -206,7 +206,7 @@ if(friends.includes('Shruti')){
 }
   */
 
-
+/*
 const calcTip = function (bill) {
   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 }
@@ -217,3 +217,47 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(bills, tips, totals);
+*/
+
+
+const jonesArray =[
+  'Jones',
+  'schmedtmann',
+  2037 - 1991,
+  'teacher',
+  ['Shruti','Sourav','Anuska',]
+];
+
+const jones ={
+  firstName:'Jones',
+  lastName:'schmedtmann',
+  age: 2027 - 1991,
+  job:'teacher',
+  friends:['Shruti','Sourav','Anuska',]
+};
+console.log(jones);
+
+console.log(jones.lastName);
+console.log(jones['lastName']);
+
+
+const nameKey = 'Name';
+console.log(jones['first' + nameKey]);
+console.log(jones['last' + nameKey]);
+
+//console.log(jones.'last' + nameKey) 
+const interestedIn = prompt('What do you whant to know about jones? Choose between firstName, lastName, age, profession, and friends');
+
+if (jones[interestedIn]) {
+    console.log(jones[interestedIn]);
+}else{
+    console.log('Wrong request! Choose between firstName, lastName, age, profession, and friends');
+}
+jones.location = 'portugal';
+jones['insta'] = 'jones@5';
+console.log(jones);
+
+// Challenge --> "jones has 3 friends, and his best friend is called shruti"
+
+console.log(`${jones.firstName} has ${jones.friends.length} friends, and his best friend is called ${jones.friends[0]}`);
+
