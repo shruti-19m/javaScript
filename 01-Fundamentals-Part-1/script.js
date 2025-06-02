@@ -223,6 +223,7 @@ switch (day){
   console.log('not  valid day!');
 }*/
 
+/*
 3*4
 1991
 true && false && !false
@@ -238,8 +239,10 @@ if(23>10)
 const isTired = false;
 console.log(hasDriverLicense && hasGoodVision && isTired);
 
-if(hasDriverLicense)
+if(hasDriverLicense){
 console.log('Sarah is able to drive!')
 } else {
   console.log('someone else should drive...');
-}
+}*/
+
+
