@@ -49,7 +49,7 @@ const appleJuice = fruitprocessor(5,0);
  console.log(age1 , age2);
  */
 
-
+/*
 //Arrow function
 const calcAge = birthYeah => 2037 - birthYeah;
 const age3 = calcAge(1991);
@@ -65,7 +65,8 @@ const yearsUntilRetirement = birthYeah =>{
 console.log(yearsUntilRetirement(1991, 'jones'));
 console.log(yearsUntilRetirement(1998,'Ruby'));
 
-
+*/
+/*
 function cutFruitPieces(fruit){
   return fruit * 4;
 }
@@ -77,3 +78,6 @@ function fruitProcessor(apples,oranges){
    return juice;
 }
 console.log(fruitProcessor(2,3));
+*/
+
+
