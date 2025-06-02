@@ -14,7 +14,7 @@ function logger(){
  // const interface = 'Audio';
 //const private = 537;
 
-logger();
+/*logger();
 logger();
 logger();
 
@@ -28,4 +28,7 @@ const appleJuice = fruitprocessor(5,0);
 
  const appleorangeJuice = fruitprocessor(3,6);
  console.log(appleorangeJuice); 
+ */
+ 
+
  
