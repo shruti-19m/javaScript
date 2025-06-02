@@ -80,7 +80,7 @@ function fruitProcessor(apples,oranges){
 console.log(fruitProcessor(2,3));
 */
 
-
+/*
 //REVIEWING FUNCTIONS
 const calcAge = function(birthYeah) //function expression
 {
@@ -101,9 +101,9 @@ const yearsUntilRetirement = function (birthYeah, firstName) {
  } 
  console.log(yearsUntilRetirement(1991,'jones'));
  console.log(yearsUntilRetirement(2000,'Mike'));
- 
+ */
 
-
+/*
      //coding challenge 
 
      const calcAverage = (x,y,z)=> (x + y + z) / 3;
@@ -133,3 +133,5 @@ const yearsUntilRetirement = function (birthYeah, firstName) {
        scoreKoalas = calcAverage(23,34,27);
        console.log(scoreDolphins , scoreKoalas);
        checkWinner(scoreDolphins , scoreKoalas);
+*/
+
