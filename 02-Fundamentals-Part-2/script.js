@@ -219,7 +219,7 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills, tips, totals);
 */
 
-
+/*
 const jonesArray =[
   'Jones',
   'schmedtmann',
@@ -227,7 +227,8 @@ const jonesArray =[
   'teacher',
   ['Shruti','Sourav','Anuska',]
 ];
-
+*/
+/*
 const jones ={
   firstName:'Jones',
   lastName:'schmedtmann',
@@ -260,4 +261,6 @@ console.log(jones);
 // Challenge --> "jones has 3 friends, and his best friend is called shruti"
 
 console.log(`${jones.firstName} has ${jones.friends.length} friends, and his best friend is called ${jones.friends[0]}`);
+*/
+
 
