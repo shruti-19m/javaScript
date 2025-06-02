@@ -263,4 +263,105 @@ console.log(jones);
 console.log(`${jones.firstName} has ${jones.friends.length} friends, and his best friend is called ${jones.friends[0]}`);
 */
 
+const shruti = {
+  firstName: 'Shruti',
+  lastName: 'Anuska',
+  birthYeah: 2000,
+  profession: 'Student',
+  friends: ['Shruti','Sourav','Anuska',],
+  hasDriversLicense: true,
 
+  //calcAge:function(birthYeah){
+   // return 2027 - birthYeah;
+ // }
+};
+  const calcAge = function(birthYeah){
+   return 2027 - birthYeah;
+  }
+
+
+// CODING CHALLENGE
+const mark = {
+  fullName: 'Mark Miller',
+  mass: 78,
+  height: 1.69,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
+};
+
+const john = {
+  fullName: 'John Smith',
+  mass: 92,
+  height: 1.95,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
+};
+
+mark.calcBMI();
+john.calcBMI();
+
+console.log(mark.bmi, john.bmi);
+// "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!"
+
+if (mark.bmi > john.bmi) {
+  console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})`)
+} else if (john.bmi > mark.bmi) {
+  console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`)
+}
+
+//ITERATION_THE FOR LOOP
+ console.log('Lifting weights repetition 1');
+ console.log('Lifting weights repetition 2');
+ console.log('Lifting weights repetition 3');
+ console.log('Lifting weights repetition 4');
+ console.log('Lifting weights repetition 5');
+ console.log('Lifting weights repetition 6');
+ console.log('Lifting weights repetition 7');
+ console.log('Lifting weights repetition 8');
+ console.log('Lifting weights repetition 9');
+ console.log('Lifting weights repetition 10');
+
+// for loop keeps running while condition is true
+for(let rep = 1; rep <=20; rep++) {
+    console.log(`Lifting wights repetition ${rep}`);
+}
+
+
+
+const jones = [
+    'jones',
+    'Schmedtmann',
+    2025-2005,
+    'Student',
+    ['Shruti','Sourav','Anuska',],
+    true
+];
+const types = [];
+
+// console.log(jones[0])
+// console.log(jones[1])
+// ...
+// console.log(jones[4])
+// jonas[5] does NOT exist
+
+for (let i = 0; i <jones.length; i++) {
+console.log(jones[i], typeof jones[i]);
+
+  // Filling types array
+  // types[i] = typeof jones[i];
+  types.push(typeof jones[i]);
+}
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2025 - years[i]);
+}
+console.log(ages);
