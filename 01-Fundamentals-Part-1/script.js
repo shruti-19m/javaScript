@@ -233,9 +233,18 @@ if(23>10)
 }
 
  const me ='Jones';
- console.log('I m ${2025-1992}years old ${me}')
+ console.log('I m ${2025-1992}years old ${me}');
+
+const isTired = false;
+console.log(hasDriverLicense && hasGoodVision && isTired);
+
+if(hasDriverLicense)
+console.log('Sarah is able to drive!')
+} else {
+  console.log('someone else should drive...');
+}
 
 
- 
+
 
 
