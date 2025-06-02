@@ -134,7 +134,7 @@ const yearsUntilRetirement = function (birthYeah, firstName) {
        console.log(scoreDolphins , scoreKoalas);
        checkWinner(scoreDolphins , scoreKoalas);
 */
-
+/*
 const friend1 = 'Shruti';
 const friend2 = 'Anuska';
 const friend3 = 'Sourav';
@@ -155,7 +155,9 @@ console.log(friends)
 const firstName = 'Shruti';
 const shruti = [firstName, 'Mandal', 2025-2005, 'Student', friends ];
 console.log(shruti.length);
+*/
 
+/*
 //Exercise
 
 const calcAge = function (birthYear) {
@@ -170,3 +172,5 @@ console.log(age1, age2, age3);
 
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length -1])];
 console.log(ages);
+*/
+
