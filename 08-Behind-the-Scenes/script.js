@@ -58,7 +58,7 @@ function addDecl(a, b) {
  var addArrow = (a,b) => a + b;
 
 
- //Example 
+ //Example 1
  console.log(undefined);
     if (!numProducts) 
         var numProuducts = 10;
