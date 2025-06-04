@@ -66,6 +66,7 @@ function addDecl(a, b) {
     function deleteShoppingCart() {
         console.log('All products deleted!');
     }
+    
 
  var x = 1;
  let y = 2;
@@ -167,6 +168,7 @@ function addDecl(a, b) {
     age: 21 ,
     family: ['aditi','som'],
  };
+
 
  const shanayaCopy = Object.assign({}, shanaya2);
  shanayaCopy.lastName = 'roy';
