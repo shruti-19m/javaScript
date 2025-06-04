@@ -97,7 +97,7 @@ function addDecl(a, b) {
         console.log(2037 - this.year );
     },
  };
- adii.calacAge();
+ jones.calacAge();
  
  const shanaya = {
     year : 2017,
@@ -144,7 +144,7 @@ function addDecl(a, b) {
 
 
 
- let lastName = 'adii';
+ let lastName = 'jones';
  let oldLastName = lastName;
  lastName = 'jones' ;
  console.log(lastName , oldLastName);
@@ -165,13 +165,13 @@ function addDecl(a, b) {
     firstName: 'shanaya',
     lastName: 'roy',
     age: 21 ,
-    family: ['chiki','farhan'],
+    family: ['aditi','som'],
  };
 
  const shanayaCopy = Object.assign({}, shanaya2);
  shanayaCopy.lastName = 'roy';
 
- shanayaCopy.family.push('cutu');
+ shanayaCopy.family.push('cutie');
  shanayaCopy.family.push('pookie');
 
  console.log('Before marriage:', shanaya2);
