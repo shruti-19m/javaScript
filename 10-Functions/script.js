@@ -29,6 +29,8 @@ createBooking('LM123',5);
 createBooking('LM123',undefined,1000);
 */
 
+
+/*
 const flight = 'LH234';
 const jonas = {
     name:'jonas Schmedtamm',
@@ -62,3 +64,23 @@ const newPassport = function(person){
 newPassport(jonas);
 checkIn(flight,jonas);
 
+ */
+
+
+const oneWord = funtion(str)
+{
+    return str.replace(/ /g,'').toLowerCase()
+};
+
+const upperFirstWord = funtion(str)
+{
+    const [first,...others]=str.split(' ');
+    return[first.toUppercase(),...others].join(' ');
+};
+
+//Higher-order function
+const transform = function(str,fn){
+    console.log('Original String:${str}');
+    console.log('Transformed string:${fn(str)}');
+}
+ transform('JavaScript is the best!',upperFirstWord);
