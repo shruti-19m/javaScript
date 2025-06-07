@@ -67,6 +67,7 @@ checkIn(flight,jonas);
  */
 
 
+/*
 const oneWord = funtion(str)
 {
     return str.replace(/ /g,'').toLowerCase()
@@ -88,7 +89,35 @@ const transform = function(str,fn){
 
  transform('JavaScript is the best!',oneWord);
 
+ //JS uses callbacks all the time
  const high5 = function() {
     console.log('hey');
  }
- document.body.addEventListener('click,high5')
+ document.body.addEventListener('click',high5);
+
+ ['Jones','Martin','Adam'].forEach(high5);
+*/
+
+
+/*
+const greet = function(greeting){
+    return function(name){
+        console.log('${greeting} ${name}');
+    }
+}
+
+const greeterHey = greet('Hey');
+greeterHey('Jones');
+greeterHey('Steven');
+
+greet('Hello')('Jones');
+
+// challenge
+const greetArr = greeting => name => console.log('${greeting} ${name}');
+
+greetArr('Hi')('jones');
+
+*/
+
+//Apply method
+const flightData = [583,'George cooper']
