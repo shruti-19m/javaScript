@@ -82,5 +82,13 @@ const upperFirstWord = funtion(str)
 const transform = function(str,fn){
     console.log('Original String:${str}');
     console.log('Transformed string:${fn(str)}');
-}
+    console.log('Transformed string:${fn.name}');
+};
  transform('JavaScript is the best!',upperFirstWord);
+
+ transform('JavaScript is the best!',oneWord);
+
+ const high5 = function() {
+    console.log('hey');
+ }
+ document.body.addEventListener('click,high5')
