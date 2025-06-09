@@ -173,3 +173,11 @@ book.call(swiss, ...flightData);
 
 
 //Blind method
+//book.call(eurowings,23 'sarah Williom');
+
+const bookEW = book.blind(eurowings);
+const bookLH = book.blind(lufthansa);
+const bookLX = book.blind(swiss);
+
+bookEW(23,'Steven Willioms');
+
