@@ -120,4 +120,22 @@ greetArr('Hi')('jones');
 */
 
 //Apply method
-const flightData = [583,'George cooper']
+const lufthansa = {
+    airline:'Lufthansa',
+    iataCode:'LH',
+    booking:[],
+    //book:function(){}
+    book(flightNum,name){
+        console.log('${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}');
+        this.bookings.push({flight:'${this.iataCode}${flightNum}',name});
+    },
+};
+
+lufthansa.book(239,'Jonas Schmedtmann');
+lufthansa.book(239,'John Smith');
+
+const eurowings ={
+    name: 'Shruti',
+    iataCode: 'SH',
+    bookings:[],
+};
