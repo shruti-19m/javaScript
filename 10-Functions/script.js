@@ -126,16 +126,50 @@ const lufthansa = {
     booking:[],
     //book:function(){}
     book(flightNum,name){
-        console.log('${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}');
+        console.log('${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}'
+        );
         this.bookings.push({flight:'${this.iataCode}${flightNum}',name});
     },
 };
 
+book.call('Shruti',23,'Sarah Williom')
+console.log(Shruti);
 lufthansa.book(239,'Jonas Schmedtmann');
 lufthansa.book(239,'John Smith');
 
 const eurowings ={
     name: 'Shruti',
-    iataCode: 'SH',
+    iataCode:'SH',
     bookings:[],
 };
+
+const book = lufthansa.book;
+
+//Does Not work
+//book(23,'Sarah Williom');
+
+book.call('Shruti',23,'Sarah Williom');
+console.log(Shruti);
+
+book.call('lufthansa',239,'Mary Cooper');
+console.log(Shruti);
+
+const swiss ={
+    name:'Swiss Air Lines',
+    iataCode:'LX',
+    bookings:[]
+}
+
+book.call(swiss,583,'Marry Copper');
+console.log(swiss);
+
+
+//Apply method
+const flightData = [583,'George Cooper'];
+book.apply(swiss,flightData);
+console.log(swiss);
+
+book.call(swiss, ...flightData);
+
+
+//Blind method
